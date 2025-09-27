@@ -12,7 +12,7 @@ title: Atharva Kathale
   padding-left: 20px;
 }
 
-/* The vertical line */
+/* Vertical line */
 .timeline::after {
   content: '';
   position: absolute;
@@ -23,13 +23,13 @@ title: Atharva Kathale
   background-color: #3498db;
 }
 
-/* Container for entries */
+/* Timeline entry */
 .timeline-entry {
   position: relative;
   margin: 20px 0 20px 60px;
 }
 
-/* Circle markers */
+/* Circle marker */
 .timeline-entry::before {
   content: '';
   position: absolute;
@@ -40,33 +40,23 @@ title: Atharva Kathale
   height: 16px;
   top: 5px;
 }
-
-/* Entry content */
-.timeline-entry h3 {
-  margin: 0 0 5px 0;
-  font-size: 1.1em;
-}
-.timeline-entry p {
-  margin: 0 0 5px 0;
-  font-size: 0.95em;
-  line-height: 1.4;
-}
 </style>
 
 # Atharva Kathale
 
-![Atharva Kathale]({{ site.profileimage }})
+<img src="/assets/images/profile.jpg" alt="Atharva Kathale" width="160" style="border-radius:50%; display:block; margin:auto;">
 
-Hi I am Atharva Kathale, Currently Software Engineer at Oracle
+<i>"I train machines, they teach me back."</i>
 
-<i>"Teaching machines, learning myself"
-</i>
+---
 
+## About Me
 
-I have experience building **scalable backend systems** and applied AI/ML solutions.  
-Interested in **distributed systems, performance engineering, cloud-native architectures, and deep learning research**.
+Hi 👋, I'm Atharva a **Software Engineer at Oracle** building backend systems.  
+I work at the intersection of **distributed systems, performance engineering, and applied AI/ML**.  
 
-Currently i am exploring Reinforcement Learning.
+I'm curious about how **complex systems scale**, how **cloud-native architectures evolve**, how **machines learn** and how **to Automate this**.  
+Outside work, I dive into AI papers, explore side-projects, and (starting now) write about what I'm learning.  
 
 ---
 
@@ -74,43 +64,45 @@ Currently i am exploring Reinforcement Learning.
 
 <div class="timeline">
 
-<div class="timeline-entry">
-<h3>Jul 2023 – Present | Oracle, Bengaluru</h3>
-<p>Associate Applications Developer</p>
-<ul>
-<li>Own two core services: <strong>batch orchestration</strong> and <strong>interest computation</strong>, used across 150+ banks and 100M+ accounts.</li>
-<li>Migrated 20+ legacy PL/SQL modules to Spring microservices and Kafka for modular deployments on OCI/on-prem.</li>
-<li>Engineered distributed execution lineage tracking library (embedded JAR) supporting multi-tenancy.</li>
-<li>Automated CI/CD pipelines (reducing 2 days → 1–2 hours); integrated JaCoCo for coverage tracking.</li>
-<li>Developed prompt-based GenAI POCs for automated product creation and summaries.</li>
-<li>Optimized SQL queries to reduce latency by ~50% (800ms → 397ms).</li>
-<li>Designed Grafana + Prometheus observability stack; collaborated with 6+ teams and mentored an intern on LLM chatbot POC.</li>
-</ul>
-</div>
+<details open class="timeline-entry">
+  <summary><h3>Jul 2023 -- Present | Oracle, Bengaluru</h3></summary>
+  <p>Associate Applications Developer</p>
+  <ul>
+    <li>Own two core services: <strong>batch orchestration</strong> & <strong>interest computation</strong> used across 150+ banks.</li>
+    <li>Migrated 20+ legacy PL/SQL modules to Spring microservices & Kafka.</li>
+    <li>Engineered distributed execution lineage tracking library for multi-tenancy.</li>
+    <li>Automated CI/CD pipelines (2 days → 2 hours).</li>
+    <li>Developed GenAI POCs for automated product creation & summaries.</li>
+    <li>Optimized SQL queries (50% latency reduction).</li>
+    <li>Built observability stack with Grafana + Prometheus, mentored intern on LLM chatbot POC.</li>
+  </ul>
+</details>
 
-<div class="timeline-entry">
-<h3>May 2022 – Jul 2022 | Oracle, Bengaluru</h3>
-<p>Project Intern</p>
-<ul>
-<li>Spearheaded Selenium/Java automation testing framework; reduced manual QA effort by ~50%; integrated with Jenkins/Gradle.</li>
-</ul>
-</div>
+<details class="timeline-entry">
+  <summary><h3>May 2022 -- Jul 2022 | Oracle, Bengaluru</h3></summary>
+  <p>Project Intern</p>
+  <ul>
+    <li>Created Selenium/Java automation testing framework; reduced QA effort by 50%.</li>
+    <li>Integrated automation with Jenkins & Gradle pipelines.</li>
+  </ul>
+</details>
 
-<div class="timeline-entry">
-<h3>Oct 2021 – May 2022 | VirtualMe.ai (Remote)</h3>
-<p>Deep Learning Product Development Intern</p>
-<ul>
-<li>Prototyped GAN-based virtual try-on pipeline; researched CV concepts like semantic segmentation, pose estimation.</li>
-</ul>
-</div>
+<details class="timeline-entry">
+  <summary><h3>Oct 2021 -- May 2022 | VirtualMe.ai (Remote)</h3></summary>
+  <p>Deep Learning Product Intern</p>
+  <ul>
+    <li>Prototyped GAN-based virtual try-on pipeline.</li>
+    <li>Explored semantic segmentation & pose estimation techniques.</li>
+  </ul>
+</details>
 
-<div class="timeline-entry">
-<h3>Oct 2021 – Mar 2022 | AlphaAI (Remote)</h3>
-<p>Data Science Intern</p>
-<ul>
-<li>Engineered user input-driven Image Recommendation System leveraging AutoEncoder vector embeddings.</li>
-</ul>
-</div>
+<details class="timeline-entry">
+  <summary><h3>Oct 2021 -- Mar 2022 | AlphaAI (Remote)</h3></summary>
+  <p>Data Science Intern</p>
+  <ul>
+    <li>Built an image recommendation system using AutoEncoder embeddings.</li>
+  </ul>
+</details>
 
 </div>
 
@@ -119,41 +111,46 @@ Currently i am exploring Reinforcement Learning.
 ## Projects
 
 - **Multimodal Autonomous Verbal Assessment (B.Tech Thesis, 2023)**  
-  AI-driven system for verbal assessment using OpenAI Whisper & BART; fine-tuned BERT embeddings for adaptive question recommendation.  
-  [GitHub / Paper Link](#)
+  Verbal assessment using OpenAI Whisper & BART, fine-tuned BERT embeddings.  
+  [GitHub / Paper](#)
 
-- **Nash-Equilibrium by Exploitability and Ensembles (2023)**  
-  Neural network-based research for zero-sum games.  
+- **Nash-Equilibrium via Exploitability & Ensembles (2023)**  
+  Neural network-based solver for zero-sum games.  
   [GitHub](https://github.com/Atharva-K12/Computing-Equilibria-by-Minimizing-Exploitability-with-Best-Response-Ensembles)
 
-- **Forward-Secure Public-Key Encryption with Keyword Search (2023)**  
+- **Forward-Secure Public-Key Encryption (2023)**  
   Explored FS-AE with conjunctive keyword search.  
   [GitHub](https://github.com/Atharva-K12/Forward-Secure-Public-key-Authenticated-Encryption-with-Conjunctive-Keyword-Search)
 
-- **Hand Sign Based Web-Controller (2021)**  
-  Real-time hand-sign classifier controlling web music player.  
+- **Hand Sign Web-Controller (2021)**  
+  Real-time hand-sign classifier controlling a web music player.  
   [GitHub](https://github.com/Atharva-K12/Hand_Sign_Music_control)
 
 ---
 
-## Thoughts & Blog
+## Thoughts & Writing
 
-I like reading about **tech, AI, and personal reflections**.  Soon to write thoughts too.
+I haven't written much publicly yet; but I want to.  
+Why? Because writing forces clarity. It's how I'll reflect on **AI, systems, and the process of learning itself**.  
+
+> "If you want to learn something deeply, try explaining it."  
+
+Soon this will link to a `/blog` section powered by Jekyll posts.
 
 ---
 
 ## Skills
 
 - **Languages:** Java, Python, C++, Bash, PL/SQL  
-- **AI/ML:** PyTorch, TensorFlow, OpenCV  
+- **AI/ML:** PyTorch, TensorFlow, OpenCV, Hugging Face  
 - **Backend:** Spring Boot, REST APIs, Kafka, Oracle DB  
-- **DevOps & Observability:** Jenkins, Gradle, Docker, JaCoCo, Prometheus, Grafana, WebLogic  
+- **DevOps & Cloud:** Docker, Kubernetes, Jenkins, Gradle, Prometheus, Grafana  
 
 ---
 
 ## Education
 
-**B.Tech, Computer Science and Engineering** – VNIT, Nagpur (2019–2023)  
+**B.Tech, Computer Science and Engineering** - Visvesvaraya National Institute of Technology, Nagpur (2019-2023)  
 CGPA: 8.60/10  
 
 ---
@@ -166,4 +163,4 @@ CGPA: 8.60/10
 
 ---
 
-*Page powered by [Jekyll](https://jekyllrb.com/), inspired by Karpathy and  Lilian Weng.*
+*Minimal site powered by [Jekyll](https://jekyllrb.com/). Inspired by Karpathy & Lilian Weng.*
