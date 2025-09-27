@@ -139,11 +139,6 @@ Currently i am exploring Reinforcement Learning.
 ## Thoughts & Blog
 
 I like reading about **tech, AI, and personal reflections**.  Soon to write thoughts too.
-<!-- - [Thought 1](#) – One-line teaser  
-- [Thought 2](#) – One-line teaser  
-- [Thought 3](#) – One-line teaser   -->
-
-<!-- *(Link to posts or create `_posts` folder for Jekyll blog entries)* -->
 
 ---
 
