@@ -40,11 +40,20 @@ title: Atharva Kathale
   height: 16px;
   top: 5px;
 }
+.profile-image{
+  width: 200px;     
+  height: 200px;     
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #0d3c5bff;
+  display: block;
+  margin: 20px auto;
+}
 </style>
 
 # Atharva Kathale
 
-<img src="/assets/images/profile.jpg" alt="Atharva Kathale" width="160" style="border-radius:50%; display:block; margin:auto;">
+<img src="./assets/images/profile.jpg" alt="Atharva Kathale" class="profile-image">
 
 <i>"I train machines, they teach me back."</i>
 
