@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Atharva Kathale
-image: https://media.licdn.com/dms/image/v2/D5603AQEOfMMzZljgag/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723321808689?e=1761782400&v=beta&t=NzMAVIGfzIeWTtxIIvjmMZ48F7nvM_40VEskFQFkiao
 ---
 
 <style>
@@ -56,11 +55,8 @@ image: https://media.licdn.com/dms/image/v2/D5603AQEOfMMzZljgag/profile-displayp
 
 # Atharva Kathale
 
-<img src="https://media.licdn.com/dms/image/v2/D5603AQEOfMMzZljgag/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723321808689?e=1761782400&v=beta&t=NzMAVIGfzIeWTtxIIvjmMZ48F7nvM_40VEskFQFkiao" 
-     alt="Atharva Kathale" 
-     width="150" 
-     height="150" 
-     style="border-radius:50%;">
+![Atharva Kathale]({{ site.profileimage }})
+
 Hi I am Atharva Kathale, Currently Software Engineer at Oracle
 
 <i>"Teaching machines, learning myself"
